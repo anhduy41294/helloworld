@@ -5,3 +5,6 @@ authors = ["Anh Duy Tran <anhduy41294@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+[[bin]]
+name = "helloworld"
+path = "src/main.rs"
