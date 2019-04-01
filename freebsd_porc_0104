@@ -1,0 +1,41 @@
+  PID  PPID  PGID   SID  TSID THR LOGIN    WCHAN     EMUL          COMM        
+    0     0     0     0     0  13 -        swapin    -             kernel      
+    1     0     1     1     0   1 root     wait      FreeBSD ELF32 init        
+    2     0     0     0     0   1 -        crypto_w  -             crypto      
+    3     0     0     0     0   1 -        crypto_r  -             crypto returns
+    4     0     0     0     0   2 -        -         -             cam         
+    5     0     0     0     0   1 -        waiting_  -             sctp_iterator
+    6     0     0     0     0   1 -        -         -             rand_harvestq
+    7     0     0     0     0   1 -        -         -             soaiod1     
+    8     0     0     0     0   1 -        -         -             soaiod2     
+    9     0     0     0     0   1 -        -         -             soaiod3     
+   10     0     0     0     0   1 -        audit_wo  -             audit       
+   11     0     0     0     0   1 -        -         -             idle        
+   12     0     0     0     0  12 -        -         -             intr        
+   13     0     0     0     0   3 -        -         -             geom        
+   14     0     0     0     0   1 -        -         -             soaiod4     
+   15     0     0     0     0   3 -        psleep    -             pagedaemon  
+   16     0     0     0     0   1 -        psleep    -             vmdaemon    
+   17     0     0     0     0   1 -        pgzero    -             pagezero    
+   18     0     0     0     0   2 -        psleep    -             bufdaemon   
+   19     0     0     0     0   1 -        -         -             bufspacedaemon
+   20     0     0     0     0   1 -        syncer    -             syncer      
+   21     0     0     0     0   1 -        vlruwt    -             vnlru       
+  317     1   317   317     0   1 root     select    FreeBSD ELF32 dhclient    
+  364     1   364   364     0   1 root     select    FreeBSD ELF32 dhclient    
+  365     1   365   365     0   1 root     select    FreeBSD ELF32 devd        
+  438     1   438   438     0   1 root     select    FreeBSD ELF32 syslogd     
+  631     1   631   631     0   1 root     select    FreeBSD ELF32 sshd        
+  634     1   634   634     0   1 root     select    FreeBSD ELF32 sendmail    
+  637     1   637   637     0   1 root     pause     FreeBSD ELF32 sendmail    
+  641     1   641   641     0   1 root     nanslp    FreeBSD ELF32 cron        
+  684     1   684   684   684   1 root     wait      FreeBSD ELF32 login       
+  685     1   685   685   685   1 root     ttyin     FreeBSD ELF32 getty       
+  686     1   686   686   686   1 root     ttyin     FreeBSD ELF32 getty       
+  687     1   687   687   687   1 root     ttyin     FreeBSD ELF32 getty       
+  688     1   688   688   688   1 root     ttyin     FreeBSD ELF32 getty       
+  689     1   689   689   689   1 root     ttyin     FreeBSD ELF32 getty       
+  690     1   690   690   690   1 root     ttyin     FreeBSD ELF32 getty       
+  691     1   691   691   691   1 root     ttyin     FreeBSD ELF32 getty       
+  692   684   692   684   684   1 root     pause     FreeBSD ELF32 csh         
+  879   692   879   684   684   1 root     -         FreeBSD ELF32 procstat    
